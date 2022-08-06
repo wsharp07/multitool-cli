@@ -25,15 +25,13 @@ archives:
       amd64: x86_64
 brews:
   -
-    # Name template of the recipe
-    # Default to project name
-    name: myproject
     tap:
       owner: wsharp07
       name: homebrew-multitool
     download_strategy: GitHubPrivateRepositoryReleaseDownloadStrategy
     homepage: "https://github.com/wsharp07/multitool-cli"
     description: "A cool thing"
+    folder: Formula
     test: |
       system "#{bin}/multitool-cli version"
 checksum:
