@@ -29,6 +29,7 @@ brews:
       owner: wsharp07
       name: homebrew-multitool
     download_strategy: GitHubPrivateRepositoryReleaseDownloadStrategy
+    custom_require: "lib/custom_download_strategy"
     homepage: "https://github.com/wsharp07/multitool-cli"
     description: "A cool thing"
     folder: Formula
