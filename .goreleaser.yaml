@@ -32,7 +32,6 @@ brews:
     custom_require: "lib/custom_download_strategy"
     homepage: "https://github.com/wsharp07/multitool-cli"
     description: "A cool thing"
-    folder: Formula
     test: |
       system "#{bin}/multitool-cli version"
 checksum:
